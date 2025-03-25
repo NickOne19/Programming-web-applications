@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список студентов</title>
+    <link rel="stylesheet" href="/Second/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список студентов</h1>
+        <div class="form-container">
+            <form id="studentForm">
+                <input type="hidden" id="studentId">
+                <label for="faculty">Факультет:</label>
+                <input type="text" id="faculty" required>
+                <label for="group">Группа:</label>
+                <input type="text" id="group" required>
+                <label for="name">Имя студента:</label>
+                <input type="text" id="name" required>
+                <button type="submit" id="submitBtn">Добавить</button>
+            </form>
+        </div>
+        <div class="student-list" id="studentList">
+            <!-- Список студентов -->
+        </div>
+    </div>
+    <script src="/Second/js/app.js"></script>
+</body>
+</html>
